@@ -1,0 +1,4 @@
+base:
+  configmap:
+    account: "123456789012"
+    environment: "prd"
