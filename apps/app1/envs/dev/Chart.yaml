@@ -6,4 +6,4 @@ version: 0.1.0
 dependencies:
   - name: base
     version: 0.1.0
-    repository: "file://../base"
+    repository: "file://../../../../charts/base"
