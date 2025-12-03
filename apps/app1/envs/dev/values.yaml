@@ -2,5 +2,5 @@ base:
   configmap:
     account: "123456789012"
     environment: "dev"
-    labels:
-      environment: "dev"
+  labels:
+    environment: "dev"
