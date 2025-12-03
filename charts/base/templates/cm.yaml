@@ -3,4 +3,7 @@ kind: ConfigMap
 metadata:
   name: {{ .Release.Name }}-configmap
   namespace: {{ .Release.Namespace }}
-data: {{- toYaml .Values.configmap | nindent 2 }}
+data:
+  {{- range $key, $value := .Values.configmap }}
+  {{ $key }}: {{ $value | quote }}
+  {{- end }}
