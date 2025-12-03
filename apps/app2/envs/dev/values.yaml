@@ -1,0 +1,4 @@
+base:
+  configmap:
+    account: "234567890123"
+    environment: "dev"
