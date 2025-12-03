@@ -1,3 +1,4 @@
-configmap:
-  account: 123456789012
-  environment: dev
+base:
+  configmap:
+    account: 123456789012
+    environment: dev
